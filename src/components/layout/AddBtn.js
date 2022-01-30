@@ -8,7 +8,7 @@ const AddBtn = () => {
         className='btn-floating btn-large red modal-trigger'
       >
         <i className='large material-icons'>
-          <img src='M.png' alt='' />
+        <i class="material-icons">more_vert</i>
         </i>
       </a>
       <ul>
@@ -21,7 +21,10 @@ const AddBtn = () => {
           </a>
         </li>
         <li>
-          <a href='#add-tech-modal' className='btn-floating black modal-trigger'>
+          <a
+            href='#add-tech-modal'
+            className='btn-floating black modal-trigger'
+          >
             <i className='material-icons'>phone</i>
           </a>
         </li>

@@ -1,8 +1,4 @@
-import React, {
-  Fragment,
-  useState,
-  useEffect,
-} from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
@@ -35,12 +31,14 @@ const App = () => {
     <Router>
       {!loading ? (
         <Fragment>
-          <Navbar />
-          <section className='container'>
-            <AddBtn />
-            <Switch>
-              <Route exact path='/' component={Home} />
-            </Switch>
+          <section>
+            <Navbar />
+            <section className='container'>
+              <AddBtn />
+              <Switch>
+                <Route exact path='/' component={Home} />
+              </Switch>
+            </section>
           </section>
         </Fragment>
       ) : (
@@ -48,6 +46,6 @@ const App = () => {
       )}
     </Router>
   );
-}
+};
 
 export default App;

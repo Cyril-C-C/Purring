@@ -1,28 +1,52 @@
 import React from 'react';
 
 const Navbar = () => {
-
   return (
-    <header
+    <section
       className='header'
       id='header'
-      style={{ backgroundImage: `url(Bg.png)` }}
+      style={{
+        backgroundImage: `linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Bg.jpg)`,
+      }}
     >
-      <nav>
-            <a href="index.html"><p>Purring</p></a>
-            <section className="nav-links" id="navLinks">
-                <i className="fa fa-times" id="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </section>
-            <i class="fa fa-bars" id="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-    </header>
+      <nav className='nav'>
+        <a
+          href='/'
+          style={{
+            width: '3.125rem',
+            color: '#f44336',
+            fontSize: '1.25rem',
+            fontWeight: 'bolder',
+          }}
+        >
+          Purring
+        </a>
+        <section className='nav-links' id='navLinks'>
+          <i className='fa fa-times' id='fa fa-times' onclick='hideMenu()'></i>
+          <ul>
+            <li>
+              <a href='#!'>OUR CULTURE</a>
+            </li>
+            <li>
+              <a href='#!'>ABOUT</a>
+            </li>
+            <li>
+              <a href='#!'>WORK</a>
+            </li>
+            <li>
+              <a href='#!'>TEAM</a>
+            </li>
+            <li>
+              <a href='#!'>CAREERS</a>
+            </li>
+            <li>
+              <a href='#!'>CONTACT</a>
+            </li>
+          </ul>
+        </section>
+        <i class='fa fa-bars' id='fa fa-bars' onclick='showMenu()'></i>
+      </nav>
+    </section>
   );
 };
 
