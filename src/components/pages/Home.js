@@ -21,6 +21,7 @@ const Home = () => {
 
       <section className='testiomonial'>
         <h1>Services</h1>
+        <h1 style={{ color: 'red', fontSize: '1.25rem' }}>B2Bs & B2Cs</h1>
         <p>
           We have the best expertise in proffering unique and best values to our
           clients with incredible speed, but yet sustainable.
@@ -28,14 +29,13 @@ const Home = () => {
 
         <section className='row'>
           <section className='testimonial-col' id='testimonial-col'>
-            <img src='2phones.png' alt='' />
+            <i class='fa fa-laptop' id='set' aria-hidden='true' />
             <section>
-              <h3>Adediji Victor</h3>
+              <span>Web Development</span>
+              <hr />
               <p>
-                I came here with my wife for her make-up and the service here
-                was good and i was comfortable i made use of your toilet and it
-                was also neat, lastly my wifes make up was so good i will
-                definetly love to come here again.
+                We create your uniqueness that markets your brands; hence,
+                drives your successes.
               </p>
               <i className='fa fa-star' id='fa fa-star'></i>
               <i className='fa fa-star' id='fa fa-star'></i>
@@ -46,14 +46,13 @@ const Home = () => {
           </section>
 
           <section className='testimonial-col' id='testimonial-col'>
-            <img src='images/jennifer.jpg' alt='' />
+            <i class='fa fa-mobile' id='set' aria-hidden='true' />
             <section>
-              <h3>Jennifer Morgan</h3>
+              <span>Mobile App Development</span>
+              <hr />
               <p>
-                I came here for my make-up and the service here was good and i
-                was comfortable i made use of your toilet and it was also neat,
-                lastly my make up was so good i will definetly love to come here
-                again.
+                We create impactful mobile applications that are bespoke to your
+                brands and industry.
               </p>
               <i className='fa fa-star' id='fa fa-star'></i>
               <i className='fa fa-star' id='fa fa-star'></i>
@@ -64,14 +63,40 @@ const Home = () => {
           </section>
 
           <section className='testimonial-col' id='testimonial-col'>
-            <img src='images/jennifer.jpg' alt='' />
+            <i class='fa fa-desktop' id='set' aria-hidden='true' />
             <section>
-              <h3>Jennifer Morgan</h3>
+              <span>UI/UX Design</span>
+              <hr />
               <p>
-                I came here for my make-up and the service here was good and i
-                was comfortable i made use of your toilet and it was also neat,
-                lastly my make up was so good i will definetly love to come here
-                again.
+                We research your suitabilities; and proffer clean and
+                sustainable product designs.
+              </p>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+            </section>
+          </section>
+        </section>
+      </section>
+      <hr />
+
+      <section className='testiomonial'>
+        <h1 style={{ color: 'red', fontSize: '1.25rem' }}>B2Bs</h1>
+        <section className='row'>
+          <section className='testimonial-col' id='testimonial-col'>
+            <i
+              class='fa fa-assistive-listening-systems'
+              id='set'
+              aria-hidden='true'
+            />
+            <section>
+              <span>IT Consulting</span>
+              <hr />
+              <p>
+                Our expertise helps your automations and digitalization,
+                optimise software, and implement lastest tech.
               </p>
               <i className='fa fa-star' id='fa fa-star'></i>
               <i className='fa fa-star' id='fa fa-star'></i>
@@ -82,14 +107,30 @@ const Home = () => {
           </section>
 
           <section className='testimonial-col' id='testimonial-col'>
-            <img src='images/jennifer.jpg' alt='' />
+            <i class='fa fa-cloud' id='set' aria-hidden='true' />
             <section>
-              <h3>Jennifer Morgan</h3>
+              <span>Cloud Computing</span>
+              <hr />
               <p>
-                I came here for my make-up and the service here was good and i
-                was comfortable i made use of your toilet and it was also neat,
-                lastly my make up was so good i will definetly love to come here
-                again.
+                We stay at par with world emerging technologies and various tech
+                and business intelligences.
+              </p>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+              <i className='fa fa-star' id='fa fa-star'></i>
+            </section>
+          </section>
+
+          <section className='testimonial-col' id='testimonial-col'>
+            <i class='fa fa-globe' id='set' aria-hidden='true' />
+            <section>
+              <span>General Contracts</span>
+              <hr />
+              <p>
+                We position ourselves to tackle and provide incredible and
+                sustainable values and services in all technology spaces.
               </p>
               <i className='fa fa-star' id='fa fa-star'></i>
               <i className='fa fa-star' id='fa fa-star'></i>
@@ -101,14 +142,16 @@ const Home = () => {
         </section>
       </section>
 
+      {/* Description */}
+
       {/* Ad */}
       <section className='ad'>
-        <img src="ad.png" alt="" />
+        <img src='ad.png' alt='' />
       </section>
 
       {/* Footer Leg */}
       <section className='list'>
-        <img src="list.png" alt="" />
+        <img src='list.png' alt='' />
       </section>
     </Fragment>
   );
