@@ -15,11 +15,17 @@ const OurPeople = () => {
               <br />
               <br />
               Just show up the way you are, we would work with you. Our leverage
-              for our people's passion, commitment, self - discipline, service
-              and above all leadership has positioned us to the limelight in
-              technology and business spaces.
+              for our people's passion, team - spirit, commitment, self -
+              discipline, service and above all leadership has positioned us to
+              the limelight in technology and business spaces.
             </p>
-            <a href='#!' className='hero-btn red-btn' id='hero-btn red-btn'>
+            <a
+              href='https://www.forbes.com/sites/forbeshumanresourcescouncil/2021/06/01/rewiring-the-workplace-mindset-of-diversity-equity-inclusion-and-belonging/?sh=59aa562021b3'
+              target='_blank'
+              rel='noreferrer'
+              className='hero-btn red-btn'
+              id='hero-btn red-btn'
+            >
               EXPLORE NOW
             </a>
           </section>

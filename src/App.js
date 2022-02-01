@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
+import OurCulture from './components/pages/OurCulture';
 
 import Spinner from './components/layout/Spinner';
 import AddBtn from './components/layout/AddBtn';
@@ -37,6 +38,7 @@ const App = () => {
               <AddBtn />
               <Switch>
                 <Route exact path='/' component={Home} />
+                <Route exact path='/OurCulture' component={OurCulture} />
               </Switch>
             </section>
           </section>

@@ -25,7 +25,7 @@ const Navbar = () => {
           <i className='fa fa-times' id='fa fa-times' onclick='hideMenu()'></i>
           <ul>
             <li>
-              <a href='#!'>OUR CULTURE</a>
+              <a href='/OurCulture'>OUR CULTURE</a>
             </li>
             <li>
               <a href='#!'>ABOUT</a>
