@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import OurPeople from '../layout/OurPeople';
 
 const Home = () => {
   return (
@@ -142,16 +143,9 @@ const Home = () => {
         </section>
       </section>
 
-      {/* Description */}
-
-      {/* Ad */}
-      <section className='ad'>
-        <img src='ad.png' alt='' />
-      </section>
-
-      {/* Footer Leg */}
-      <section className='list'>
-        <img src='list.png' alt='' />
+      {/* Our People, Our Culture */}
+      <section>
+        <OurPeople />
       </section>
     </Fragment>
   );
