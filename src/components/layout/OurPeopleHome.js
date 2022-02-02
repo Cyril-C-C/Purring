@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const OurPeople = () => {
+const OurPeopleHome = () => {
   return (
     <Fragment>
       {/* Our People, Our Culture */}
@@ -35,8 +35,8 @@ const OurPeople = () => {
         </section>
       </section>
 
-      {/* Footer Our Culture */}
-      <section className='about-us-list' id='about-us-list'>
+      {/* Footer Home */}
+      <section className='about-us-list-home' id='about-us-list-home'>
         <section className='row-list' id='row-list'>
           <section className='about-col-list'>
             <h1>Hire Us</h1>
@@ -60,4 +60,4 @@ const OurPeople = () => {
   );
 };
 
-export default OurPeople;
+export default OurPeopleHome;

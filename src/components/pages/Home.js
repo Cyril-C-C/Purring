@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import OurPeople from '../layout/OurPeople';
+import OurPeopleHome from '../layout/OurPeopleHome';
 
 const Home = () => {
   return (
@@ -145,7 +145,7 @@ const Home = () => {
 
       {/* Our People, Our Culture */}
       <section>
-        <OurPeople />
+        <OurPeopleHome />
       </section>
     </Fragment>
   );
