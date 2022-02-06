@@ -1,50 +1,70 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
+import Dropdown from './Dropdown';
 
 const Navbar = () => {
+  const [dropdown, setDropdown] = useState(false);
+
+  // var navLinks = document.getElementById('navLinks');
+  const navLinks = useRef(null);
+
+  const showMenu = () => (navLinks.style.right = '0');
+
+  const hideMenu = () => (navLinks.style.right = '-12.5rem');
+
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
+
   return (
-    <section
-      className='header'
-      id='header'
-      style={{
-        backgroundImage: `linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Bg.jpg)`,
-      }}
-    >
-      <nav className='nav'>
-        <a
-          href='/'
-          style={{
-            width: '3.125rem',
-            color: '#f44336',
-            fontSize: '1.25rem',
-            fontWeight: 'bolder',
-          }}
-        >
+    <section className='header' id='header'>
+      <nav>
+        <Link to='/' className='navbar-logo'>
           Purring
-        </a>
-        <section className='nav-links' id='navLinks'>
-          <i className='fa fa-times' id='fa fa-times' onclick='hideMenu()'></i>
+        </Link>
+        <section className='nav-links' id='navLinks' ref={navLinks}>
+          <i class='fa fa-times' id='fa fa-times' onclick={hideMenu}></i>
           <ul>
             <li>
-              <a href='/OurCulture'>OUR CULTURE</a>
+              <Link to='/OurCulture'>OUR CULTURE</Link>
             </li>
             <li>
-              <a href='#!'>ABOUT</a>
+              <Link to='#!'>ABOUT</Link>
             </li>
             <li>
-              <a href='#!'>WORK</a>
+              <Link to='#!'>WORKS</Link>
+            </li>
+            <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+              <Link to='#!'>
+                TEAM{' '}
+                <i
+                  className='fas fa-caret-down'
+                  style={{ padding: '0.5rem' }}
+                />
+              </Link>
+              {dropdown && <Dropdown />}
             </li>
             <li>
-              <a href='#!'>TEAM</a>
+              <Link to='#!'>CAREERS</Link>
             </li>
             <li>
-              <a href='#!'>CAREERS</a>
-            </li>
-            <li>
-              <a href='#!'>CONTACT</a>
+              <Link to='#!'>CONTACT</Link>
             </li>
           </ul>
         </section>
-        <i class='fa fa-bars' id='fa fa-bars' onclick='showMenu()'></i>
+        <i class='fa fa-bars' id='fa fa-bars' onclick={showMenu}></i>
       </nav>
     </section>
   );

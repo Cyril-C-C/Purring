@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import OurPeople from '../layout/OurPeople';
+import Footer1 from '../layout/Footer1';
 
 const OurCulture = () => {
   return (
-    <Fragment>
+    <>
       <section className='text-box' id='text-box'>
         <h1>
           Passion, Self - Love, Authenticity, Team - Work{' '}
@@ -32,10 +33,11 @@ const OurCulture = () => {
       </section>
 
       {/* Our People, Our Culture */}
-      <section>
         <OurPeople />
-      </section>
-    </Fragment>
+
+      {/* Footer 1 */}
+        <Footer1/>
+    </>
   );
 };
 
