@@ -39,7 +39,7 @@ const App = () => {
               <AddBtn />
               <Switch>
                 <Route exact path='/' component={Home} />
-                <Route exact path='/Culture/' component={OurCulture} />
+                <Route exact path='/Culture.html' component={OurCulture} />
               </Switch>
               <Footer/>
             </section>
