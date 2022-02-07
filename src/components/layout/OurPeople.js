@@ -1,9 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 const OurPeople = () => {
   return (
-    <Fragment>
-      {/* Our People, Our Culture */}
       <section className='about-us'>
         <section className='row' id='row'>
           <section className='about-col' id='about-coll'>
@@ -34,7 +32,6 @@ const OurPeople = () => {
           </section>
         </section>
       </section>
-    </Fragment>
   );
 };
 

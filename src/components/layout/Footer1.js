@@ -1,8 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 const Footer1 = () => {
   return (
-    <Fragment>
       <section className='about-us-list' id='about-us-list'>
         <section className='row-list' id='row-list'>
           <section className='about-col-list'>
@@ -21,7 +20,6 @@ const Footer1 = () => {
           </section>
         </section>
       </section>
-    </Fragment>
   );
 };
 
