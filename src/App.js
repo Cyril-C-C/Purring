@@ -1,8 +1,9 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/layout/Navbar';
+// import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import OurCulture from './components/pages/OurCulture';
+import About from './components/pages/About';
 import Footer from './components/layout/Footer';
 
 import Spinner from './components/layout/Spinner';
@@ -34,12 +35,13 @@ const App = () => {
       {!loading ? (
         <Fragment>
           <section>
-            <Navbar />
-            <section className='container'>
+            {/* <Navbar /> */}
+            <section>
               <AddBtn />
               <Switch>
                 <Route exact path='/' component={Home} />
-                <Route path='/Culture' component={OurCulture} />
+                <Route exact path='/OurCulture' component={OurCulture} />
+                <Route exact path='/About' component={About} />
               </Switch>
               <Footer/>
             </section>

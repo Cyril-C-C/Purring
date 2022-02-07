@@ -150,6 +150,7 @@ nav {
   width: 100%;
   margin: auto;
   padding-top: 3.25rem;
+  padding-left: 1rem;
   text-align: center;
 }
 .testimonial-col {
@@ -179,6 +180,9 @@ nav {
   color: #f44336;
 }
 @media (max-width: 43.75rem) {
+  .testiomonial{
+    padding: 1rem;
+  }
   .testiomonial h1 {
     font-size: 2rem;
   }
@@ -347,7 +351,7 @@ nav {
   font-size: 0.8rem;
 }
 
-
+/* About */
 
 /*----- course ------*/
 .course {

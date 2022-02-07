@@ -10,22 +10,22 @@ const Footer2 = () => {
               <a href='/'>HOME</a>
             </li>
             <li>
-              <a href='/Culture'>OUR CULTURE</a>
+              <a href='/OurCulture'>OUR CULTURE</a>
             </li>
             <li>
-              <a href='#!'>ABOUT</a>
+              <a href='/About'>ABOUT</a>
             </li>
             <li>
-              <a href='#!'>WORKS</a>
+              <a href='/Works'>WORKS</a>
             </li>
             <li>
-              <a href='#!'>TEAM</a>
+              <a href='/Team'>TEAM</a>
             </li>
             <li>
-              <a href='#!'>CAREERS</a>
+              <a href='/Careers'>CAREERS</a>
             </li>
             <li>
-              <a href='#!'>CONTACT</a>
+              <a href='/Contact'>CONTACT</a>
             </li>
           </ul>
         </section>

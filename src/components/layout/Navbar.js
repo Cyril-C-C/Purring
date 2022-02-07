@@ -38,16 +38,16 @@ const Navbar = () => {
           {/* <i class='fa fa-times' id='fa fa-times' onclick={hideMenu}></i> */}
           <ul>
             <li>
-              <Link to='/Culture'>OUR CULTURE</Link>
+              <Link to='/OurCulture'>OUR CULTURE</Link>
             </li>
             <li>
-              <Link to='#!'>ABOUT</Link>
+              <Link to='/About'>ABOUT</Link>
             </li>
             <li>
-              <Link to='#!'>WORKS</Link>
+              <Link to='/Works'>WORKS</Link>
             </li>
             <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-              <Link to='#!'>
+              <Link to='/Team'>
                 TEAM{' '}
                 <i
                   className='fas fa-caret-down'
@@ -57,10 +57,10 @@ const Navbar = () => {
               {dropdown && <Dropdown />}
             </li>
             <li>
-              <Link to='#!'>CAREERS</Link>
+              <Link to='/Careers'>CAREERS</Link>
             </li>
             <li>
-              <Link to='#!'>CONTACT</Link>
+              <Link to='/Contact'>CONTACT</Link>
             </li>
           </ul>
         </section>
