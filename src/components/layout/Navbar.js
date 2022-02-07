@@ -38,7 +38,7 @@ const Navbar = () => {
           {/* <i class='fa fa-times' id='fa fa-times' onclick={hideMenu}></i> */}
           <ul>
             <li>
-              <Link to='/Culture.html'>OUR CULTURE</Link>
+              <Link to='/Culture'>OUR CULTURE</Link>
             </li>
             <li>
               <Link to='#!'>ABOUT</Link>
