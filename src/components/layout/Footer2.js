@@ -10,7 +10,7 @@ const Footer2 = () => {
               <a href='/'>HOME</a>
             </li>
             <li>
-              <a href='/OurCulture'>OUR CULTURE</a>
+              <a href='/'>OUR CULTURE</a>
             </li>
             <li>
               <a href='#!'>ABOUT</a>
