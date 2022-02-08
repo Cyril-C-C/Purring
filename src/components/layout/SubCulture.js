@@ -14,7 +14,7 @@ const SubCulture = () => {
         <br />
         Your Investment of Personality, Intellectual Property and Works will
         always speak volume towards your career success with us; hence,
-        everything else counts really less. Just add that value, and come back
+        everything else counts really less. Just add that value, and go back
         to your family at every COB.
       </p>
       <a

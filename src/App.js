@@ -36,9 +36,7 @@ const App = () => {
 
   return (
     <Router>
-      {loading ? (
-        <Spinner />
-      ) : (
+      {!loading ? (
         <Fragment>
           <section>
             {/* <Navbar /> */}
@@ -57,6 +55,8 @@ const App = () => {
             </section>
           </section>
         </Fragment>
+      ) : (
+        <Spinner />
       )}
     </Router>
   );
