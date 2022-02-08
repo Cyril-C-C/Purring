@@ -12,6 +12,8 @@ import Footer from './components/layout/Footer';
 
 import Spinner from './components/layout/Spinner';
 import AddBtn from './components/layout/AddBtn';
+import Floating from './components/layout/Floating';
+import Floatings from './components/layout/Floatings';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
@@ -42,6 +44,8 @@ const App = () => {
             {/* <Navbar /> */}
             <section>
               <AddBtn />
+              <Floating />
+              <Floatings />
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/OurCulture' component={OurCulture} />

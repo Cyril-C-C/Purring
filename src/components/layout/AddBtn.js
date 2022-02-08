@@ -14,7 +14,7 @@ const AddBtn = () => {
       <ul>
         <li>
           <a
-            href='#Email'
+            href='#email-modal'
             className='btn-floating grey modal-trigger'
           >
             <i className='material-icons'>mail</i>
@@ -22,7 +22,7 @@ const AddBtn = () => {
         </li>
         <li>
           <a
-            href='#WhatsApp'
+            href='#phone-modal'
             className='btn-floating black modal-trigger'
           >
             <i className='material-icons'>phone</i>

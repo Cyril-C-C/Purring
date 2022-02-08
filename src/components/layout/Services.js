@@ -7,8 +7,8 @@ const Services = () => {
         <h1>Services</h1>
         <h1 style={{ color: 'red', fontSize: '1.25rem' }}>B2Bs & B2Cs</h1>
         <p>
-          We have the best expertise in proffering unique and best values to our
-          clients with incredible speed, but yet sustainable.
+          We have the best expertise in proffering unique and best values to
+          businesses and customers with incredible speed, but yet sustainable.
         </p>
 
         <section className='row'>
@@ -68,6 +68,11 @@ const Services = () => {
 
       <section className='testiomonial'>
         <h1 style={{ color: 'red', fontSize: '1.25rem' }}>B2Bs</h1>
+        <p>
+          The success of your business shapes how we build our vision, culture
+          and community. You have the goals; we have the technologies...
+        </p>
+
         <section className='row'>
           <section className='testimonial-col' id='testimonial-col'>
             <i
