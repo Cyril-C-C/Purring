@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/pages/Home';
 import OurCulture from './components/pages/OurCulture';
 import About from './components/pages/About';
+import Works from './components/pages/Works';
+import Team from './components/pages/Team';
+import Careers from './components/pages/Careers';
+import Contact from './components/pages/Contact';
 import Footer from './components/layout/Footer';
 
 import Spinner from './components/layout/Spinner';
@@ -42,8 +46,12 @@ const App = () => {
                 <Route exact path='/' component={Home} />
                 <Route exact path='/OurCulture' component={OurCulture} />
                 <Route exact path='/About' component={About} />
+                <Route exact path='/Works' component={Works} />
+                <Route exact path='/Team' component={Team} />
+                <Route exact path='/Careers' component={Careers} />
+                <Route exact path='/Contact' component={Contact} />
               </Switch>
-              <Footer/>
+              <Footer />
             </section>
           </section>
         </Fragment>
