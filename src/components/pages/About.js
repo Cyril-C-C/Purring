@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBarSub from '../layout/NavBarSub';
 import SubAbout from '../layout/SubAbout';
+import OurPeople from '../layout/OurPeople';
 
 const About = () => {
   return (
@@ -8,6 +9,7 @@ const About = () => {
     <NavBarSub/>
     <SubAbout/>
 
+    <OurPeople/>
     </>
   );
 };
