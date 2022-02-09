@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from '../layout/Navbar';
+import NavBarSub from '../layout/NavBarSub';
 import OurPeople from '../layout/OurPeople';
 import SubCulture from '../layout/SubCulture';
 
 const OurCulture = () => {
   return (
     <>
-      <Navbar />
+      <NavBarSub />
       <section>
         {/* SubCulture */}
         <SubCulture />

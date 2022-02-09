@@ -8,9 +8,9 @@
 /* Spinner */
 
 .spinner img {
-  width: 77.8%;
+  width: 90%;
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -180,7 +180,7 @@ nav {
   color: #f44336;
 }
 @media (max-width: 43.75rem) {
-  .testiomonial{
+  .testiomonial {
     padding: 1rem;
   }
   .testiomonial h1 {
@@ -353,6 +353,39 @@ nav {
 
 /* About */
 
+.sub-header {
+  height: 50vh;
+  width: 100;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('./images/Nav.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+}
+.sub-text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.sub-text-box h1 {
+  font-size: 3.875rem;
+}
+.sub-text-box p {
+  margin: 0.625rem 0 2.5rem;
+  font-size: 0.875rem;
+  color: #fff;
+}
+@media (max-width: 43.75rem) {
+  .sub-text-box h1 {
+    font-size: 1.25rem;
+  }
+}
 
 /*----- course ------*/
 .course {
@@ -491,52 +524,6 @@ h3 {
     font-size: 24px;
   }
 }
-
-/*--------- about us page ---------*/
-
-.sub-header {
-  height: 50vh;
-  width: 100;
-  /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/mkpp.jpeg); */
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-}
-.sub-header h1 {
-  margin-top: 100px;
-}
-
-/* .about-us{
-  width: 80%;
-  margin: auto;
-  padding-top: 80px;
-  padding-bottom: 50px;
-}
-
-.about-col{
-  flex-basis: 48%;
-  padding: 30px 2px;
-}
-.about-col img{
-  width: 100%; 
-}
-.about-col h1{
-  padding-top: 0;
-}
-.about-col p{
-  padding: 15px 0 25px;
-} */
-
-/* .red-btn{
- border: 1px solid #f44336; 
- background: transparent;
- color: #f44336;
-}
-
-.red-btn:hover{
-  color: #fff;
-} */
 
 /*--------blog-content------*/
 
