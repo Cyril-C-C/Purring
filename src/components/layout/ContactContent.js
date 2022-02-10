@@ -28,7 +28,7 @@ const ContactContent = () => {
           </section>
         </section>
         <section className='contact-col' id='contact-col'>
-          <form action='form-handler.php' method='post'></form>
+          {/* <form action='form-handler.php' method='post'></form> */}
         </section>
       </section>
     </section>
