@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroPage = () => {
   return (
@@ -12,9 +13,9 @@ const HeroPage = () => {
           We are one of the best brands that brings your digital dreams to
           exciting realities.
         </p>
-        <a href='#!' className='hero-btn' id='hero-btn'>
+        <Link to='/About' className='hero-btn' id='hero-btn'>
           Visit Us To Know More
-        </a>
+        </Link>
       </section>
     </Fragment>
   );

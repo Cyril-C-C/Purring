@@ -432,7 +432,13 @@ nav {
   .row-main {
     flex-direction: column;
   }
+  .about-col-main img {
+    padding-right: 0;
+  }
 }
+
+/* Contact */
+
 
 /*----- course ------*/
 .course {
