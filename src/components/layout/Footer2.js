@@ -34,6 +34,13 @@ const Footer2 = () => {
         <p>FOLLOW US ON:</p>
         <section className='icons'>
           <a
+            href='https://github.com/Purring2022'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <i className='fa fa-github' id='fa fa-github' />
+          </a>
+          <a
             href='https://www.linkedin.com/company/purring'
             target='_blank'
             rel='noreferrer'
@@ -54,7 +61,9 @@ const Footer2 = () => {
         Copyright <i class='fa fa-copyright' id='fa fa-copyright' /> Purring
         2022
       </span>
-      <span>Privacy Policy</span>
+      <a href='/PrivatePolicy'>
+        <span>Privacy Policy</span>
+      </a>
     </section>
   );
 };

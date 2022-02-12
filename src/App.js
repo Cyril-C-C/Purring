@@ -10,6 +10,8 @@ import Careers from './components/pages/Careers';
 import Contact from './components/pages/Contact';
 import Footer from './components/layout/Footer';
 
+import PrivatePolicy from './components/pages/PrivatePolicy';
+
 import Spinner from './components/layout/Spinner';
 import AddBtn from './components/layout/AddBtn';
 import Floating from './components/layout/Floating';
@@ -54,6 +56,7 @@ const App = () => {
                 <Route exact path='/Team' component={Team} />
                 <Route exact path='/Careers' component={Careers} />
                 <Route exact path='/Contact' component={Contact} />
+                <Route exact path='/PrivatePolicy' component={PrivatePolicy} />
               </Switch>
               <Footer />
             </section>
