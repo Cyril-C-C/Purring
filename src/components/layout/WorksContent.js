@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const WorksContent = () => {
   return (
@@ -6,20 +6,20 @@ const WorksContent = () => {
       <section className='row-main' id='row-main'>
         <section className='about-col-main' id='about-coll-main'>
           <h1>
-            To Your Exciting{' '}
-            <span style={{ color: '#f44336' }}>Realities...</span>
+            We Provide The Experience{' '}
+            <span style={{ color: '#f44336' }}>You Deserve</span>
           </h1>
           <p>
-            Purring is a technology solution service provider in global market.
-            With best practices, we provide bespoke technology services across
-            related ecosystems.
+            Every project is born from a special set of challenges. We are proud
+            of each and every digital product we create, whether for a
+            publisher, nonprofit, museum, or brand. Organizations partner with
+            us to unlock solutions catered for their needs today and flexible
+            for what they will want tomorrow.
             <br />
             <br />
-            Website Development, Mobile App Development, Artificial Intelligence
-            (AI) solutions, Continuous Integration (CI) and Continuous Delivery
-            (CD) solutions, Intelligent Chatbots, Payment Solutions, User
-            Interface (UI) and User Experience (UX) solutions are core services
-            we offer to clients across businesses and NGOs world - wide.
+            Purring has experts in: Angular, Data Engineering, DevOps, Golang,
+            iOS, Java, Python, php, QA, React Native, React.js, Vue.js, Ruby,
+            Salesforce, Climate Intelligence.
             <br />
             <br />
             <span style={{ color: '#f44336' }}>Founded</span> ~ 2021.
@@ -39,11 +39,11 @@ const WorksContent = () => {
           </a>
         </section>
         <section className='about-col-main' id='about-col-main'>
-          <img src='About.jpg' alt='' />
+          <img src='Works.jpg' alt='' />
         </section>
       </section>
     </section>
-  )
-}
+  );
+};
 
-export default WorksContent
+export default WorksContent;

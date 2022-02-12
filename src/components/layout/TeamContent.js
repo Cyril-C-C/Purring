@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const TeamContent = () => {
   return (
@@ -6,27 +6,25 @@ const TeamContent = () => {
       <section className='row-main' id='row-main'>
         <section className='about-col-main' id='about-coll-main'>
           <h1>
-            To Your Exciting{' '}
-            <span style={{ color: '#f44336' }}>Realities...</span>
+            Our Heros, <span style={{ color: '#f44336' }}>Our Community</span>
           </h1>
           <p>
-            Purring is a technology solution service provider in global market.
-            With best practices, we provide bespoke technology services across
-            related ecosystems.
+            Our high performance culture yields fast, beautiful products that
+            stand up to the toughest demands of the Internet. The biggest names
+            in media, non-profits, and technology entrust their digital products
+            to us year after year because our team gets results.
             <br />
             <br />
-            Website Development, Mobile App Development, Artificial Intelligence
-            (AI) solutions, Continuous Integration (CI) and Continuous Delivery
-            (CD) solutions, Intelligent Chatbots, Payment Solutions, User
-            Interface (UI) and User Experience (UX) solutions are core services
-            we offer to clients across businesses and NGOs world - wide.
+            We're not rock stars, zombies, or magicians. We're authentic,
+            intelligent, experienced professionals ready to exceed your sky-high
+            expectations. We value quality, transparency, and accountability,
+            and build collaborative partnerships, not vendor relationships.
             <br />
             <br />
-            <span style={{ color: '#f44336' }}>Founded</span> ~ 2021.
+            <span style={{ color: '#f44336' }}>Team Members</span> ~ 10.
             <br />
             <br />
-            <span style={{ color: '#f44336' }}>Specialties</span> ~ General
-            Contracts and Technology Services.
+            <span style={{ color: '#f44336' }}>Projects Delivered</span> ~ 3.
           </p>
           <a
             href='https://www.linkedin.com/company/purring'
@@ -39,11 +37,11 @@ const TeamContent = () => {
           </a>
         </section>
         <section className='about-col-main' id='about-col-main'>
-          <img src='About.jpg' alt='' />
+          <img src='Team.jpg' alt='' />
         </section>
       </section>
     </section>
-  )
-}
+  );
+};
 
-export default TeamContent
+export default TeamContent;

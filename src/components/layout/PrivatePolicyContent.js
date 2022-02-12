@@ -7,7 +7,7 @@ const PrivatePolicyContent = () => {
         <section className='about-col-main' id='about-coll-main'>
           <h1>
             Control,{' '}
-            <span style={{ color: '#f44336' }}>We Take Very Seriously...</span>
+            <span style={{ color: '#f44336' }}>We Take Very Seriously</span>
           </h1>
           <p>
             It is Purring’s policy to respect your privacy regarding any
