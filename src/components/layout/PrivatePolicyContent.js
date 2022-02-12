@@ -28,7 +28,7 @@ const PrivatePolicyContent = () => {
             modification.
             <br />
             <br />
-            We don not share any personally identifying information publicly or
+            We do not share any personally identifying information publicly or
             with third-parties, except when required to by law.
             <br />
             <br />
