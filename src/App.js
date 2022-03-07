@@ -1,5 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+
 // import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import OurCulture from './components/pages/OurCulture';
@@ -19,6 +21,7 @@ import Floatings from './components/layout/Floatings';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import 'semantic-ui-css/semantic.min.css';
 import './App.css';
 
 const App = () => {
@@ -42,25 +45,33 @@ const App = () => {
     <Router>
       {!loading ? (
         <Fragment>
-          <section>
-            {/* <Navbar /> */}
-            <section>
-              <AddBtn />
-              <Floating />
-              <Floatings />
-              <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/OurCulture' component={OurCulture} />
-                <Route exact path='/About' component={About} />
-                <Route exact path='/Works' component={Works} />
-                <Route exact path='/Team' component={Team} />
-                <Route exact path='/Careers' component={Careers} />
-                <Route exact path='/Contact' component={Contact} />
-                <Route exact path='/PrivatePolicy' component={PrivatePolicy} />
-              </Switch>
-              <Footer />
-            </section>
-          </section>
+          <TransitionGroup>
+            <CSSTransition timeout={500} classNames='item'>
+              {/* <section> */}
+              {/* <Navbar /> */}
+              <section>
+                <AddBtn />
+                <Floating />
+                <Floatings />
+                <Switch>
+                  <Route exact path='/' component={Home} />
+                  <Route exact path='/OurCulture' component={OurCulture} />
+                  <Route exact path='/About' component={About} />
+                  <Route exact path='/Works' component={Works} />
+                  <Route exact path='/Team' component={Team} />
+                  <Route exact path='/Careers' component={Careers} />
+                  <Route exact path='/Contact' component={Contact} />
+                  <Route
+                    exact
+                    path='/PrivatePolicy'
+                    component={PrivatePolicy}
+                  />
+                </Switch>
+                <Footer />
+              </section>
+              {/* </section> */}
+            </CSSTransition>
+          </TransitionGroup>
         </Fragment>
       ) : (
         <Spinner />

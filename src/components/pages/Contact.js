@@ -1,7 +1,8 @@
 import React from 'react';
 import NavBarSub from '../layout/NavBarSub';
 import SubContact from '../layout/SubContact';
-import ContactMap from '../layout/ContactMap';
+import Email from '../layout/Email';
+// import ContactMap from '../layout/ContactMap';
 import ContactContent from '../layout/ContactContent';
 
 const Contact = () => {
@@ -9,7 +10,8 @@ const Contact = () => {
     <>
       <NavBarSub />
       <SubContact />
-      <ContactMap />
+      <Email/>
+      {/* <ContactMap /> */}
       <ContactContent />
     </>
   );
