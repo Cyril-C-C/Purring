@@ -8,7 +8,7 @@ const LaptopVideo = () => {
           <h1>
             You Have The Vision;{' '}
             <span style={{ color: '#f44336' }}>
-              We Have The People And The Technologies.
+              We Have The People And Technology
             </span>
           </h1>
           <p>
