@@ -10,7 +10,7 @@ const AboutContent = () => {
             <span style={{ color: '#f44336' }}>Realities...</span>
           </h1>
           <p>
-            Purring is a technology solution service provider in global market.
+            Purring Technology is a technology solution service provider in global market.
             With best practices, we provide bespoke technology services across
             related ecosystems.
             <br />
