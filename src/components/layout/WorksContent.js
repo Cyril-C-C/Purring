@@ -17,7 +17,7 @@ const WorksContent = () => {
             for what they will want tomorrow.
             <br />
             <br />
-            Purring has experts in: Angular, Data Engineering, DevOps, Golang,
+            Purring Technology has experts in: Angular, Data Engineering, DevOps, Golang,
             iOS, Java, Python, php, QA, React Native, React.js, Vue.js, Ruby,
             Salesforce, Climate Intelligence.
             <br />
