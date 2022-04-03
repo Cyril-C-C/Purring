@@ -46,7 +46,7 @@ const LaptopVideo = () => {
           </a>
         </section>
         <section className='about-col-main' id='about-col-main'>
-          <img src='Laptop.jpg' alt='' />
+          <img src='Laptop.jpeg' alt='' />
         </section>
       </section>
     </section>
