@@ -101,7 +101,7 @@ const Services = () => {
               <span>Cloud Computing</span>
               <hr />
               <p>
-                We stay at par with world emerging technologies and various tech
+                We stay at par with world emerging technologies; various tech
                 and business intelligences.
               </p>
               <i className='fa fa-star' id='fa fa-star'></i>
