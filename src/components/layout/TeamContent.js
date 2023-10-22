@@ -24,7 +24,7 @@ const TeamContent = () => {
             <span style={{ color: '#f44336' }}>Team Members</span> ~ 10.
             <br />
             <br />
-            <span style={{ color: '#f44336' }}>Projects Delivered</span> ~ 3.
+            <span style={{ color: '#f44336' }}>Projects Delivered</span> ~ Multiple.
           </p>
           <a
             href='https://www.linkedin.com/company/purring'
