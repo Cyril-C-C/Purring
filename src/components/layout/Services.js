@@ -85,7 +85,7 @@ const Services = () => {
               <hr />
               <p>
                 Our expertise helps your automations and digitalization,
-                optimise software, and implement lastest tech.
+                optimise software, and implement latest tech.
               </p>
               <i className='fa fa-star' id='fa fa-star'></i>
               <i className='fa fa-star' id='fa fa-star'></i>
