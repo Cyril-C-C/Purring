@@ -67,7 +67,7 @@ const Services = () => {
       <hr />
 
       <section className='testiomonial'>
-        <h1 style={{ color: 'red', fontSize: '1.25rem' }}>B2Bs</h1>
+        <h1 style={{ color: 'red', fontSize: '1.25rem' }}>B2Bs & B2As</h1>
         <p>
           The success of your business shapes how we build our vision, culture
           and community. You have the goals; we have the technologies...
